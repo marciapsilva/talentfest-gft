@@ -19,6 +19,6 @@
   "homepage": "https://github.com/marciapsilva/talentfest-gft#readme",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {}
 }
-
