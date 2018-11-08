@@ -1,12 +1,7 @@
-$(document).ready(() => {
-
-});
-
-
-const renderPayments= () => {
+const renderPayments = category => {
   return `
-  <div class="">
-    <p>Carrega a página de PAGAMENTOS</p>
-  </div>
+    <div class="">
+      <p>carrega página de PAGAMENTOS</p>
+    </div>
   `;
 };

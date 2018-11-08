@@ -1,12 +1,7 @@
-$(document).ready(() => {
-
-});
-
-
-const renderDashboard = () => {
+const renderHome = () => {
   return `
-  <div class="">
-    <p>Carrega a página de DASHBOARD</p>
+  <div class="home-container d-flex j-around al-start">
+    <p>Mostra a página HOME</p>
   </div>
   `;
 };
