@@ -1,0 +1,23 @@
+$(document).ready(() => {
+  page('/', dashboard);
+  page('/payments', payments);
+  page('/insurance', insurance);
+  page('/map', map);
+
+})
+
+function dashboard() {
+  $('main').html(renderDashboard);
+}
+
+function payments() {
+  $('main').html(renderPayments);
+}
+
+function insurance() {
+  $('main').html(renderInsurance);
+}
+
+function map() {
+  $('main').html(renderMap);
+}
