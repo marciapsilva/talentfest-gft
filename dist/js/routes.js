@@ -1,9 +1,12 @@
 $(document).ready(() => {
   page('/', dashboard);
   page('/payments', payments);
+  page('/loan', loan);
   page('/insurance', insurance);
   page('/map', map);
   page();
+
+  $()
 })
 
 function dashboard() {
@@ -12,6 +15,10 @@ function dashboard() {
 
 function payments() {
   $('main').html(renderPayments());
+}
+
+function loan() {
+  $('main').html(renderLoan());
 }
 
 function insurance() {
