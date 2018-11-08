@@ -1,13 +1,13 @@
 $(document).ready(() => {
-  page('/', home);
+  page('/', dashboard);
   page('/payments', payments);
   page('/insurance', insurance);
   page('/map', map);
   page();
 })
 
-function home() {
-  $('main').html(renderHome());
+function dashboard() {
+  $('main').html(renderDashboard());
 }
 
 function payments() {

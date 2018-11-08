@@ -1,7 +1,10 @@
-const renderHome = () => {
+const renderDashboard = () => {
   return `
-  <div class="home-container d-flex j-around al-start">
-    <p>Mostra a página HOME</p>
-  </div>
+    <nav>
+      <button id="btn-home">Home</button>
+      <button id="btn-payments">Pagamentos</button>
+      <button id="btn-insurance">Seguros</button>
+      <button id="btn-map">Agências</button>
+    </nav>
   `;
 };

@@ -1,8 +1,3 @@
-$(document).ready(() => {
-
-});
-
-
 const renderInsurance = () => {
   return `
   <div class="">
