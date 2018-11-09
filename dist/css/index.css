@@ -6,6 +6,10 @@
   border: 2px solid green;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-style: 'Montserrat', sans-serif;
