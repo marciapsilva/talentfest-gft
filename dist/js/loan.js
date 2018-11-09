@@ -1,8 +1,8 @@
 const renderLoan = category => {
   return `
     <div class="">
-      <table class="table">
-        <thead class="bg-primary">
+      <table class="table table-striped">
+        <thead class="">
           <tr>
             <th scope="col">Valor Empréstimo</th>
             <th scope="col">Valor Mensal</th>

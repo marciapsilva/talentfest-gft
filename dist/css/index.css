@@ -211,3 +211,7 @@ p {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+.form-control {
+  font-size: 2rem;
+}

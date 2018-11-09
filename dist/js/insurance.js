@@ -14,8 +14,8 @@ const renderInsurance = () => {
     </div>
     
     <div id="Residencial" class="tabcontent">
-      <table class="table">
-        <thead class="bg-primary">
+      <table class="table table-striped">
+        <thead class="">
           <tr>
             <th scope="col">Valor do Seguro</th>
             <th scope="col">Valor Mensal</th>
@@ -47,8 +47,8 @@ const renderInsurance = () => {
     </div>
 
     <div id="Vida" class="tabcontent">
-      <table class="table">
-        <thead class="bg-primary">
+      <table class="table table-striped">
+        <thead class="">
           <tr>
             <th scope="col">Valor do Seguro</th>
             <th scope="col">Valor Mensal</th>
@@ -80,8 +80,8 @@ const renderInsurance = () => {
     </div>
 
     <div id="Auto" class="tabcontent">
-      <table class="table">
-      <thead class="bg-primary">
+      <table class="table table-striped">
+      <thead class="">
         <tr>
           <th scope="col">Veículo</th>
           <th scope="col">Marca</th>
