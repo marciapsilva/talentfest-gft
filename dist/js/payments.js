@@ -26,7 +26,7 @@ const renderPayments = () => {
       </div>
       <div class="d-flex">
         <button id="open-modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Pagar</button>
-        <a href="/" class="btn btn-secondary">Voltar</a>
+        <a href="/dashboard" class="btn btn-secondary">Voltar</a>
       </div>
     </form>
   </section>
