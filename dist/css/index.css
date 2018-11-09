@@ -215,3 +215,7 @@ p {
 .form-control {
   font-size: 2rem;
 }
+
+input[type=date] {
+  -webkit-appearance: textfield;
+}

@@ -1,7 +1,7 @@
 const renderInsurance = () => {
   return `
   <div class="mx-5">
-    <h2 class="mt-4">SEGUROS</h2>
+    <h2 class="mt-4 text-center">FAÇA UM SEGURO</h2>
     <div class="">
       <p class="">O nosso compromisso é lhe oferecer os melhores benefícios. Conte com as vantagens dos nossos seguros.</p>
     </div>
