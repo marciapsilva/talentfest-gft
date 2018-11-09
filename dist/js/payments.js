@@ -8,24 +8,22 @@ $(document).ready(() => {
 const renderPayments = () => {
   return `
   <section id="loan-page">
-    <h2>Digite aqui o código de barras</h2>
+    <p class="font-strong">Digite aqui o código de barras</p>
     <form>
       <div>
         <input id="ipt-boleto-1" type="text" size="5" maxlength="5">.<input id="ipt-boleto-2" type="text" size="5" maxlength="5"> <input id="ipt-boleto-3" type="text" size="5" maxlength="5">.<input id="ipt-boleto-4" type="text" size="6" maxlength="6"> <input id="ipt-boleto-5" type="text" size="5" maxlength="5">.<input id="ipt-boleto-6" type="text" size="6" maxlength="6"> <input id="ipt-boleto-7"  type="text" size="1" maxlength="1"> <input id="ipt-boleto-8" type="text" size="14" maxlength="14">
       </div>
       <div>
-        <p>Data de vencimento</p>
-        <input id="ipt-boleto-date" type="date">
+        <p class="mb-3">Data de vencimento  <input id="ipt-boleto-date" type="date"></p>
       </div>
       <div>
-        <p>Valor</p>
-        <div>
-          <p>R$<p>
-          <input id="ipt-boleto-value" placeholder="0,00" type="text">
+        <p>Valor R$ <input id="ipt-boleto-value" placeholder="0,00" type="text"></p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="mt-5">
+          <button id="open-modal" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong" data-toggle="modal" data-target="#exampleModal">Pagar</button>
+          <a href="/dashboard" class="text-light btn btn-secondary p-3 btn-font-size font-strong">Voltar</a>
         </div>
-      </div>
-      <div>
-        <button id="open-modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Pagar</button>
       </div>
     </form>
   </section>
@@ -56,26 +54,27 @@ const showModal = (boletoNumber, boletoDate, boletoValue) => {
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
+        <div class="modal-header bg-modal-header">
+          <h5 class="modal-title text-white" id="exampleModalLabel">Confirme os dados da operação</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="text-white text-close">Fechar</span>
+          </button>
+        </div>
         <div class="modal-body">
-          <button id="close-modal" type="button" class="close" data-dismiss="modal" aria-label="Close">Fechar</button>
-          <div class="container">
-            <div class="row">
-              <div class="col-4 modal-img-box">
-                <h1>Confirme os dados dessa operação</h1>
-              </div>
               <div class="col-7">
                 <p class=""><span>Código de barras: </span>${boletoNumber}</p>
                 <p class=""><span>Data de Vencimento: </span>${boletoDate}</p>
                 <p class=""><span>Valor: </span>${boletoValue}</p>
               </div>
-              <div>
-                <p>Digite sua senha</p>
-                <input type="password" id="password-input">
+              <div class="d-flex align-content-center mb-3">
+                <p class="mr-2">Digite sua senha</p>
+                <input type="password" id="password-input" class="input-date">
               </div>
-              <div class="btn btn-success">
-                <a href="/successful_operation" id="confirm-operation" class="">Confirmar</a>
-              </div>
-              <button id="cancel-operation" type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancelar</button>
+              <div class="d-flex align-items-center justify-content-center mb-3">
+                <div class="btn btn-primary mr-3">
+                  <a href="/successful_operation" id="confirm-operation" class="text-white">Confirmar</a>
+                </div>
+              <button id="cancel-operation" type="button" class="btn btn-warning text-white" data-dismiss="modal" aria-label="Close">Cancelar</button>
             </div>
           </div>
         </div>
