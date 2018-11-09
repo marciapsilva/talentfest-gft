@@ -67,7 +67,7 @@ const showModal = (boletoNumber, boletoDate, boletoValue) => {
                 <p class=""><span>Data de Vencimento: </span>${boletoDate}</p>
                 <p class=""><span>Valor: </span>${boletoValue}</p>
               </div>
-              <div class="d-flex align-content-center mb-3">
+              <div class="d-flex align-items-center mb-3">
                 <p class="mr-2">Digite sua senha</p>
                 <input type="password" id="password-input" class="input-date">
               </div>
