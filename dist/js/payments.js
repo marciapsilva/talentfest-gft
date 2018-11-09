@@ -8,7 +8,7 @@ $(document).ready(() => {
 const renderPayments = () => {
   return `
   <section id="loan-page">
-    <h2>Digite aqui o código de barras</h2>
+    <h2 class="font-strong">Digite aqui o código de barras</h2>
     <form>
       <div>
         <input id="ipt-boleto-1" type="text" size="5" maxlength="5">.<input id="ipt-boleto-2" type="text" size="5" maxlength="5"> <input id="ipt-boleto-3" type="text" size="5" maxlength="5">.<input id="ipt-boleto-4" type="text" size="6" maxlength="6"> <input id="ipt-boleto-5" type="text" size="5" maxlength="5">.<input id="ipt-boleto-6" type="text" size="6" maxlength="6"> <input id="ipt-boleto-7"  type="text" size="1" maxlength="1"> <input id="ipt-boleto-8" type="text" size="14" maxlength="14">
@@ -19,9 +19,11 @@ const renderPayments = () => {
       <div>
         <p>Valor R$ <input id="ipt-boleto-value" placeholder="0,00" type="text"></p>
       </div>
-      <div class="d-flex">
-        <button id="open-modal" class="btn-pagar btn" data-toggle="modal" data-target="#exampleModal">Pagar</button>
-        <a href="/dashboard" class="btn">Voltar</a>
+      <div class="d-flex justify-content-center">
+        <div class="mt-5">
+          <button id="open-modal" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong" data-toggle="modal" data-target="#exampleModal">Pagar</button>
+          <a href="/dashboard" class="text-light btn btn-secondary p-3 btn-font-size font-strong">Voltar</a>
+        </div>
       </div>
     </form>
   </section>
