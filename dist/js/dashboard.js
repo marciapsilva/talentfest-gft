@@ -1,6 +1,6 @@
 const renderDashboard = () => {
   return `
-    <section id="dashboard-btns">
+    <section id="dashboard-page">
       <div class="btn">
         <a href="/payments" class="">Efetue pagamentos</a>
       </div>

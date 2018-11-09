@@ -4,9 +4,9 @@ $(document).ready(() => {
   page('/loan', loan);
   page('/insurance', insurance);
   page('/map', map);
-  page();
+  page('/successful_operation', successfulOperation);
 
-  $()
+  page();
 })
 
 function dashboard() {
@@ -27,4 +27,8 @@ function insurance() {
 
 function map() {
   $('main').html(renderMap());
+}
+
+function successfulOperation() {
+  $('main').html(renderSucessfulOperation());
 }

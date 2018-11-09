@@ -1,8 +1,10 @@
-a {
+a, a:visited {
   text-decoration: none;
+  color: #000;
 }
 
 .no-bullets {
   list-style-type: none;
 }
+
 
