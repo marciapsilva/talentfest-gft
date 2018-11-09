@@ -5,7 +5,7 @@ $(document).ready(() => {
   page('/loan', loan);
   page('/insurance', insurance);
   page('/map', map);
-  page('/confirmation/:valor', confirmation)
+  page('/confirmation', confirmation)
   page('/successful_operation', successfulOperation);
 
   page();
