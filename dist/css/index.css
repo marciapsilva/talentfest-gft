@@ -1,3 +1,11 @@
+.border-test-red {
+  border: 2px solid red;
+}
+
+.border-test-green {
+  border: 2px solid green;
+}
+
 body {
   margin: 0;
   font-style: 'Montserrat', sans-serif;
@@ -19,7 +27,11 @@ header {
   list-style-type: none;
 }
 
-nav {
+.icon-size {
+  font-size: 4rem;
+}
+
+nav, .button-blue {
   background-color: #1D2B73;
 }
 

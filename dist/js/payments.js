@@ -24,8 +24,9 @@ const renderPayments = () => {
           <input id="ipt-boleto-value" placeholder="0,00" type="text">
         </div>
       </div>
-      <div>
+      <div class="d-flex">
         <button id="open-modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Pagar</button>
+        <a href="/" class="btn btn-secondary">Voltar</a>
       </div>
     </form>
   </section>
