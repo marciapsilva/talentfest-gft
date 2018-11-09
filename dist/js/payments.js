@@ -1,10 +1,8 @@
 $(document).ready(() => {
-  // $('main').on('input', 'input', boletoPayment);
   $('main').on('click', '#open-modal', confirmData);
   $('main').on('click', '#close-modal', clearModal);
   $('main').on('click', '#cancel-operation', clearModal);
   $('main').on('click', '#confirm-operation', clearModal);
-  // $('main').on('input', '#boleto-form', boletoPayment);
 });
 
 const renderPayments = () => {
@@ -69,6 +67,10 @@ const showModal = (boletoNumber, boletoDate, boletoValue) => {
                 <p class=""><span>Código de barras: </span>${boletoNumber}</p>
                 <p class=""><span>Data de Vencimento: </span>${boletoDate}</p>
                 <p class=""><span>Valor: </span>${boletoValue}</p>
+              </div>
+              <div>
+                <p>Digite sua senha</p>
+                <input type="password" id="password-input">
               </div>
               <div class="btn btn-success">
                 <a href="/successful_operation" id="confirm-operation" class="">Confirmar</a>
