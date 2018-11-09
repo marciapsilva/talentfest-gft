@@ -28,19 +28,19 @@ const renderInsurance = () => {
             <th scope="row">R$ 2.500</th>
             <td>R$ 250,00</td>
             <td>12 meses</td>
-            <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+            <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
           </tr>
           <tr>
             <th scope="row">R$ 2.500</th>
             <td>R$ 175,00</td>
             <td>18 meses</td>
-            <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+            <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
           </tr>
           <tr>
             <th scope="row">R$ 2.500</th>
             <td>R$ 150,00</td>
             <td>24 meses</td>
-            <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+            <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
           </tr>
         </tbody>
       </table>
@@ -61,19 +61,19 @@ const renderInsurance = () => {
             <th scope="row">R$ 3.000</th>
             <td>R$ 300,00</td>
             <td>12 meses</td>
-            <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+            <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
           </tr>
           <tr>
             <th scope="row">R$ 3.000</th>
             <td>R$ 150,00</td>
             <td>18 meses</td>
-            <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+            <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
           </tr>
           <tr>
             <th scope="row">R$ 3.000</th>
             <td>R$ 120,00</td>
             <td>24 meses</td>
-            <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+            <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
           </tr>
         </tbody>
       </table>
@@ -98,7 +98,7 @@ const renderInsurance = () => {
         <td>2014</td>
         <td>ate 3X S/JUROS</td>
         <td>R$ 1.500,00</td>
-        <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+        <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
       </tr>
       <tr>
           <th scope="row">Gol 1.6 Mi I MOTION T. 4P</th>
@@ -106,7 +106,7 @@ const renderInsurance = () => {
           <td>2014</td>
           <td>ate 6X JUROS</td>
           <td>R$ 2.100,00</td>
-          <td><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
+          <td class="text-center"><a href="/confirmation" class="text-light btn btn-primary p-3 mr-3 btn-font-size font-strong">Contratar</a></td>
       </tr>
     </tbody>
   </table>
