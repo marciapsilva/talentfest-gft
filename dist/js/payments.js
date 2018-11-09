@@ -14,19 +14,14 @@ const renderPayments = () => {
         <input id="ipt-boleto-1" type="text" size="5" maxlength="5">.<input id="ipt-boleto-2" type="text" size="5" maxlength="5"> <input id="ipt-boleto-3" type="text" size="5" maxlength="5">.<input id="ipt-boleto-4" type="text" size="6" maxlength="6"> <input id="ipt-boleto-5" type="text" size="5" maxlength="5">.<input id="ipt-boleto-6" type="text" size="6" maxlength="6"> <input id="ipt-boleto-7"  type="text" size="1" maxlength="1"> <input id="ipt-boleto-8" type="text" size="14" maxlength="14">
       </div>
       <div>
-        <p>Data de vencimento</p>
-        <input id="ipt-boleto-date" type="date">
+        <p class="mb-3">Data de vencimento  <input id="ipt-boleto-date" type="date"></p>
       </div>
       <div>
-        <p>Valor</p>
-        <div>
-          <p>R$<p>
-          <input id="ipt-boleto-value" placeholder="0,00" type="text">
-        </div>
+        <p>Valor R$ <input id="ipt-boleto-value" placeholder="0,00" type="text"></p>
       </div>
       <div class="d-flex">
-        <button id="open-modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Pagar</button>
-        <a href="/dashboard" class="btn btn-secondary">Voltar</a>
+        <button id="open-modal" class="btn-pagar btn" data-toggle="modal" data-target="#exampleModal">Pagar</button>
+        <a href="/dashboard" class="btn">Voltar</a>
       </div>
     </form>
   </section>
