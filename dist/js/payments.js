@@ -8,6 +8,7 @@ $(document).ready(() => {
 const renderPayments = () => {
   return `
   <section id="loan-page">
+  <h2 class="mt-4">PAGUE SUAS CONTAS</h2>
     <p class="font-strong">Digite aqui o código de barras</p>
     <form>
       <div>

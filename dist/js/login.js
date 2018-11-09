@@ -12,12 +12,12 @@ const renderLogin = () => {
               </div>
               <div class="form-group">
                 <label>Agência</label>
-                <input id="loginAg" type="text" class="form-control" placeholder="XXXX" maxlength="4">
+                <input id="loginAg" type="number" class="form-control" placeholder="XXXX">
                 <small class="form-text text-muted">Digite os 4 números de sua agência</small>
               </div>
               <div class="form-group">
                 <label>Conta corrente</label>
-                <input id="loginCC" type="text" class="form-control" placeholder="XXXXX-X" maxlength="7">
+                <input id="loginCC" type="number" class="form-control" placeholder="XXXXX-X">
                 <small class="form-text text-muted">Digite os 4 números de sua conta corrente</small>
               </div>
               <button id="botaoLogin" type="submit" class="btn">Entrar</button>

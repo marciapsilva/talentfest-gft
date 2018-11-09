@@ -5,29 +5,29 @@ const renderDashboard = () => {
         <div class="container">
           <div class="d-flex justify-content-between flex-wrap">
             <div id="btns" class="col-md-5 col-sm-12 p-5 btn d-flex justify-content-start mt-5 button-blue">
-              <a href="/payments" class="text-light d-flex flex-direction-row justify-content-between align-items-center ml-sm-4 ml-md-0">
+              <a href="/payments" class="w-100 text-light d-flex align-items-center ml-sm-4 ml-md-0">
                 <i class="fas fa-barcode icon-size mr-4"></i>
-                <span>Pague suas contas</span>
+                <div class="w-100 text-btn">Pague suas contas</div>
               </a>
             </div>
             <div id="btns" class="col-md-5 col-sm-12 p-5 btn d-flex justify-content-start mt-5 button-blue">
-              <a href="/loan" class="text-light d-flex flex-direction-row justify-content-between align-items-center ml-sm-4 ml-md-0">
+              <a href="/loan" class="w-100 text-light d-flex align-items-center ml-sm-4 ml-md-0">
                 <i class="fas fa-money-bill-alt icon-size mr-4"></i>
-                <span>Faça um empréstimo</span>
+                <div class="w-100 text-btn">Faça um empréstimo</div>
               </a>
             </div>
           </div>
           <div class="d-flex justify-content-between flex-wrap">
               <div id="btns" class="col-md-5 sm-6 p-5 btn d-flex justify-content-start mt-5 button-blue">
-              <a href="/insurance" class="text-light d-flex flex-direction-row justify-content-between align-items-center ml-sm-4 ml-md-0">
+              <a href="/insurance" class="w-100 text-light d-flex align-items-center ml-sm-4 ml-md-0">
                 <i class="fas fa-link icon-size mr-4"></i>
-                <span>Faça um seguro</span>
+                <div class="w-100 text-btn">Faça um seguro</div>
               </a>
             </div>
             <div id="btns" class="col-md-5 sm-6 p-5 btn d-flex justify-content-start mt-5 button-blue">
-              <a href="/map" class="text-light d-flex flex-direction-row justify-content-between align-items-center ml-sm-4 ml-md-0">
+              <a href="/map" class="w-100 text-light d-flex align-items-center ml-sm-4 ml-md-0">
                 <i class="far fa-building icon-size mr-4"></i>
-                <span>Encontre uma agência <br>perto de você!</span>
+                <div class="w-100 text-btn">Encontre uma agência perto de você!</div>
               </a>
             </div>
           </div>

@@ -1,6 +1,6 @@
 const data = [
   {
-    "name": "Banco do Brasil",
+    "name": "Bank Generation",
     "address": "Av. Paulista, 2163 - Bela Vista",
     "agencyNumber": "2163",
     "phone": "(11) 2159-4050",
@@ -8,7 +8,7 @@ const data = [
     "long": -46.660580
   },
   {
-    "name": "Banco do Brasil",
+    "name": "Bank Generation",
     "address": "Av. Paulista, 2421 - Bela Vista",
     "agencyNumber": "2421",
     "phone": "0800 729 0722",
@@ -16,7 +16,7 @@ const data = [
     "long": -46.662494
   },
   {
-    "name": "Banco do Brasil",
+    "name": "Bank Generation",
     "address": "Av. Paulista, 1230 - Bela Vista",
     "agencyNumber": "1230",
     "phone": "(11) 4003-3001",

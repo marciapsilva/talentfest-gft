@@ -15,7 +15,8 @@ function login() {
   $('nav').html("");
   $('main').html(renderLogin());
   $('#mapContainer').hide();
-
+  $('#mapText').hide();
+  $('#buttonsContainer').hide();
   $('#botaoLogin').click(function (e) {
     const nome = $("#loginName").val();
     const agencia = $("#loginAg").val();
@@ -110,6 +111,7 @@ function map() {
   const conta = localStorage.getItem("conta");
   $('nav').html(renderNavBar(nome, agencia, conta));
   $('#mapText').html(renderMap());
+  $("#buttonsContainer").show();
   $("#buttonsContainer").html(`<div class="d-flex justify-content-center mt-4"><a href="/dashboard" class="text-light btn btn-secondary p-3 btn-font-size font-strong ">Voltar</a></div>`);
   $('#botaoLogout').click(function (e) {
     localStorage.clear();

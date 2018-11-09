@@ -131,7 +131,7 @@ main {
 }
 
 #btns {
-  border-color:  #1D2B73;
+  border-color:#1D2B73;
   font-size: 30px;
 }
 
@@ -210,4 +210,16 @@ p {
 
 .text-size-2 {
   font-size: 2rem;
+}
+
+.form-control {
+  font-size: 2rem;
+}
+
+input[type=date] {
+  -webkit-appearance: textfield;
+}
+
+.text-btn {
+  white-space: normal;
 }
