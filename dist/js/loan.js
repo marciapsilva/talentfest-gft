@@ -1,8 +1,8 @@
-const renderLoan = () => {
+const renderLoan = category => {
   return `
-  <div class="">
-    <p>Carrega a página de EMPRÉSTIMO</p>
-    <a href="/" class="">Voltar</a>
-  </div>
+    <div class="">
+      <p>carrega página de EMPRÉSTIMOS</p>
+      <a href="/" class="">Voltar</a>
+    </div>
   `;
 };

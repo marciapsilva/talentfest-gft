@@ -10,6 +10,51 @@ header {
   width: auto;
 }
 
+header {
+  margin: 3rem;
+  width: auto;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+nav {
+  background-color: #1D2B73;
+}
+
+#mapContainer {
+  height: 65vh;
+  margin: 10px 40px;
+  border: 1px solid #1D2B73;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info-bubble {
+  display: flex;
+  flex-flow: column;
+}
+
+.info-text {
+  margin: 3px !important;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.your-location {
+  font-size: 0.9rem;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
 .no-bullets {
   list-style-type: none;
 }
