@@ -8,7 +8,7 @@ $(document).ready(() => {
 const renderPayments = () => {
   return `
   <section id="loan-page">
-    <h2 class="font-strong">Digite aqui o código de barras</h2>
+    <p class="font-strong">Digite aqui o código de barras</p>
     <form>
       <div>
         <input id="ipt-boleto-1" type="text" size="5" maxlength="5">.<input id="ipt-boleto-2" type="text" size="5" maxlength="5"> <input id="ipt-boleto-3" type="text" size="5" maxlength="5">.<input id="ipt-boleto-4" type="text" size="6" maxlength="6"> <input id="ipt-boleto-5" type="text" size="5" maxlength="5">.<input id="ipt-boleto-6" type="text" size="6" maxlength="6"> <input id="ipt-boleto-7"  type="text" size="1" maxlength="1"> <input id="ipt-boleto-8" type="text" size="14" maxlength="14">

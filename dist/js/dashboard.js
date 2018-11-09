@@ -7,7 +7,7 @@ const renderDashboard = () => {
             <div id="btns" class="col-md-5 col-sm-12 p-5 btn d-flex justify-content-start mt-5 button-blue">
               <a href="/payments" class="text-light d-flex flex-direction-row justify-content-between align-items-center ml-sm-4 ml-md-0">
                 <i class="fas fa-barcode icon-size mr-4"></i>
-                <span>Faça um pagamento</span>
+                <span>Pague suas contas</span>
               </a>
             </div>
             <div id="btns" class="col-md-5 col-sm-12 p-5 btn btn-outline-light d-flex justify-content-start mt-5 button-blue">
@@ -27,7 +27,7 @@ const renderDashboard = () => {
             <div id="btns" class="col-md-5 sm-6 p-5 btn d-flex justify-content-start mt-5 button-blue">
               <a href="/map" class="text-light d-flex flex-direction-row justify-content-between align-items-center ml-sm-4 ml-md-0">
                 <i class="far fa-building icon-size mr-4"></i>
-                <span>Encontre uma agência <br>próxima a você</span>
+                <span>Encontre uma agência <br>perto de você!</span>
               </a>
             </div>
           </div>
