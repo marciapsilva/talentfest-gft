@@ -61,13 +61,10 @@ function insurance() {
     page("/confirmation");
     e.preventDefault();
   });
-
-  
 }
 
 function map() {
   $('main').html(renderMap());
-
 }
 
 function successfulOperation() {
