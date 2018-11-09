@@ -1,8 +1,31 @@
+body {
+  margin: 0;
+  font-style: 'Montserrat', sans-serif;
+}
 a {
   text-decoration: none;
+}
+header {
+  margin: 3rem;
+  width: auto;
 }
 
 .no-bullets {
   list-style-type: none;
 }
+nav {
+  background-color: #1D2B73;
+}
 
+main {
+  /* margin: 6rem 12rem; */
+}
+
+
+#btns {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-color:  #1D2B73;
+  /* height: 25vw; */
+  font-size: 30px;
+}
