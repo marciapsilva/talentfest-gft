@@ -21,24 +21,17 @@ const renderInsurance = () => {
                 <h5 class="card-title">Cobertura básica: R$350,00</h5>
                 <p class="card-text">Com essa cobertura você pode contar com: encanador, chaveiro, vidraceiro e eletricista</p>
                 <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
+                <a href="/dashboard" class="btn btn-secondary">Voltar</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Cobertura básica: R$1500,00</h5>
+                <h5 class="card-title">Cobertura completa: R$1500,00</h5>
                 <p class="card-text">Na cobertura completa conte com: encanador, chaveiro, vidraceiro, eletricista, instalação de ventilador de teto e substituição de telha.</p>
                 <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Cobertura básica: R$3000,00</h5>
-                <p class="card-text">Direito a comer banana Na cobertura completa conte com: encanador, chaveiro, vidraceiro, eletricista, instalação de ventilador de teto e substituição de telha.</p>
-                <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
+                <a href="/dashboard" class="btn btn-secondary">Voltar</a>
               </div>
             </div>
           </div>
@@ -56,24 +49,17 @@ const renderInsurance = () => {
               <h5 class="card-title">Cobertura básica: R$350,00</h5>
               <p class="card-text">Com essa cobertura você pode contar com: encanador, chaveiro, vidraceiro e eletricista</p>
               <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
+              <a href="/dashboard" class="btn btn-secondary">Voltar</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Cobertura básica: R$1500,00</h5>
+              <h5 class="card-title">Cobertura complera: R$1500,00</h5>
               <p class="card-text">Na cobertura completa conte com: encanador, chaveiro, vidraceiro, eletricista, instalação de ventilador de teto e substituição de telha.</p>
               <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Cobertura básica: R$3000,00</h5>
-              <p class="card-text">Direito a comer banana Na cobertura completa conte com: encanador, chaveiro, vidraceiro, eletricista, instalação de ventilador de teto e substituição de telha.</p>
-              <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
+              <a href="/dashboard" class="btn btn-secondary">Voltar</a>
             </div>
           </div>
         </div>
@@ -91,24 +77,17 @@ const renderInsurance = () => {
                     <h5 class="card-title">Cobertura básica: R$350,00</h5>
                     <p class="card-text">Com essa cobertura você pode contar com: encanador, chaveiro, vidraceiro e eletricista</p>
                     <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
+                    <a href="/dashboard" class="btn btn-secondary">Voltar</a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-title">Cobertura básica: R$1500,00</h5>
+                    <h5 class="card-title">Cobertura completa: R$1500,00</h5>
                     <p class="card-text">Na cobertura completa conte com: encanador, chaveiro, vidraceiro, eletricista, instalação de ventilador de teto e substituição de telha.</p>
                     <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Cobertura básica: R$3000,00</h5>
-                    <p class="card-text">Direito a comer banana Na cobertura completa conte com: encanador, chaveiro, vidraceiro, eletricista, instalação de ventilador de teto e substituição de telha.</p>
-                    <a href="/confirmation/350" class="btn btn-primary">Contratar</a>
+                    <a href="/dashboard" class="btn btn-secondary">Voltar</a>
                   </div>
                 </div>
               </div>
@@ -121,6 +100,5 @@ const renderInsurance = () => {
       <p>Entre em contato com a gente pelo telefone: (xx) 555-0000.</p>
       <p>Ou venha em uma de nossas agências.</p>
   </div>
-  <a href="/dashboard" class="btn btn-secondary">Voltar</a>
   `;
 };
