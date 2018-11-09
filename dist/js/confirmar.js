@@ -7,7 +7,7 @@ const renderConfirmation = (valor) => {
       <label>senha</label>
       <input type="password" class="form-control" maxlength="10" />
     </div>
-    <a href="/dashboard">Confirmação com a sua senha</a>
+    <a href="/successful_operation" class="btn btn-primary">Confirmação com a sua senha</a>
     <a href="/insurance" class="btn btn-secondary">Voltar</a>
   </div>
   `;
