@@ -27,6 +27,7 @@ function insurance() {
 
 function map() {
   $('main').html(renderMap());
+
 }
 
 function successfulOperation() {
